@@ -1,3 +1,5 @@
+package FindTheQuickestWayBack;
+
 import java.util.Scanner;
 
 public class RobotProblem {
@@ -197,8 +199,8 @@ public class RobotProblem {
             result = ((higher * -1) + (lower * -1)) + 2;
             return result;
         }
-        System.out.print("Error: ");
-        return 404;
+        System.exit(404);
+        return -1;
     }
 
     public static void main(String[] args) {
